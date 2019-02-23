@@ -52,7 +52,7 @@ article{
 .image-left {
   float: center;
   margin: 2rem 2rem 2rem -8px;
-  float:left;
+  float:right;
 }
 .image-caption {
   background: brown;
