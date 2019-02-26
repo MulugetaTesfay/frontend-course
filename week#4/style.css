@@ -43,7 +43,7 @@ body {
     margin: .5rem -1rem;
   }
  .navigation-list li { margin: .5rem 1rem; }
-      .navigation-list li::last-child { margin-right: 0; }
+      .navigation-list li:last-child { margin-right: 0; }
       .nav-link { color: white; text-decoration: none; }
       .nav-link:hover { text-decoration: underline; }
 .mid-section { display: flex; flex: 1 1 auto; }
