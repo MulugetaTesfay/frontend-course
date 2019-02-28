@@ -1,0 +1,99 @@
+html { box-sizing: border-box;}
+*, *:before, *:after { box-sizing: inherit; }
+
+img { max-width: 100%; }
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    min-height: 100vh;
+    border:0.1rem solid pink;
+  }
+  
+  .header {
+    display: flex;
+    flex: 0 0 auto;
+    background: #698f3f;
+    padding: 0 1rem;
+    align-items: center;
+    min-height: 3.75rem;
+  }
+    .site-name {
+      flex: 1 1 auto;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      font-style:italic;
+    }
+  
+    .navigation {
+      flex: 0 0 auto;
+    }
+  
+      .navigation-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+        .navigation-list li { margin: 0 1rem; }
+          .nav-link { color: white; text-decoration: underline; }
+            .nav-link:hover { text-decoration: none; }
+  
+  .middle-section {
+    display: flex;
+    flex: 1 1 auto;
+    align-items:stretch;
+    
+  }
+  
+    .main-section {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      font-size:25px;
+    }
+      .main-section-top {
+        flex: 1 1 auto;
+        display: flex;
+        align-items: stretch;
+        font-style: none;
+      }
+        .main-title{
+          flex: 0 1 auto;
+          padding: 0 1.5rem;
+        }
+  
+    .side {
+      flex: 1 0 20vw;
+      padding: 1.5rem;
+      background: #e7decd;
+      flex-direction: column;
+      display: flex;
+    }
+      .side-title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 0;
+      }
+      .side-image {
+        margin: 0;
+        padding: 0;
+        
+      }
+  
+    .footer-bottom {
+      background: brown;
+      flex: 0 0 2.5rem;    
+      align-items: center;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: center;
+      color:white;     
+    }
